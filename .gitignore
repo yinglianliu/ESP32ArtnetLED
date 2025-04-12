@@ -1,0 +1,28 @@
+# TouchDesigner temporary and config files
+*.tdrc
+*.toe~*
+CrashAutoSaves/
+__Cache__/
+__Temp__/
+
+# Arduino / ESP32 build artifacts
+*.elf
+*.bin
+*.hex
+build/
+
+# VS Code config
+.vscode/
+
+# macOS / Windows hidden files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (if used in your project)
+__pycache__/
+*.pyc
+
+# Logs and temp
+*.log
+*.tmp
